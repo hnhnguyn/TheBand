@@ -1,0 +1,111 @@
+/* PC */
+@media (min-width: 64em) {
+    
+}
+
+/* tablet & mobile */
+@media (max-width: 63.9375em) {
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+    
+    .btn {
+        padding: 16px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .contact-form-submitbtn {
+        font-size: 16px;
+    }
+
+    .social a {
+        margin: 0 8px;
+    }
+
+    #footer .copyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+/* tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    
+}
+
+/* mobile */
+
+@media (max-width: 46.1875em) {
+    .s-col-full,
+    .s-btn-fullwidth {
+        width: 100% !important;
+    }
+
+    .s-mt8 {
+        margin-top: 8px !important;
+    }
+    
+    #header {
+        overflow: hidden;
+    }
+    
+    #header .search {
+        display: none;
+    }
+    
+    #header .mobile-menubar {
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav >li a {
+        padding: 1px 24px;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+        color: #fff;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 42px;
+    }
+
+    #slider .text-content {
+        display: none;
+    }
+
+    #band .teammember .member-mobileresponsive {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .about-section .avatar {
+        width: 60%;
+    }
+
+    .contact-form {
+        margin-top: 32px;
+    }
+}
