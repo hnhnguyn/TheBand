@@ -10,13 +10,6 @@ html {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* 
-1. Vị trí
-2. Kích thước
-3. Màu sắc
-4. Kiểu
-*/
-
 /* common */
 .clear {
     clear: both;
@@ -92,11 +85,6 @@ html {
 .col-tri {
     width: calc(100% / 3);
 }
-
-/* main */
-/* #main {
-
-} */
 
 /* header */
 #header {
